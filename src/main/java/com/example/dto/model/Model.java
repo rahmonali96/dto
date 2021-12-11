@@ -24,4 +24,12 @@ public class Model {
     public void setY(int y) {
         this.y = y;
     }
+
+    @Override
+    public String toString() {
+        return "Model{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }

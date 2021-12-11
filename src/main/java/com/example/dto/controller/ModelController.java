@@ -26,6 +26,7 @@ public class ModelController {
 
     @PostMapping
     public boolean model(@RequestBody Model model){
+        System.out.println(model.toString());
         return modelService.divide(model);
     }
     @GetMapping("/allx")
